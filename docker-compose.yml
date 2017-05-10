@@ -5,4 +5,9 @@ services:
     image: n3m1s/code-kata:latest
     volumes:
       - ./:/opt/project
+    environment:
+      PHP_IDE_CONFIG: "serverName=code-kata.local"
+    extra_hosts:
+      - "docker_host:192.168.10.1"
+
   
