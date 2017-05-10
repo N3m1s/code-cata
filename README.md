@@ -3,13 +3,14 @@ Code kata exercise environment
 
 Run `docker-compose up`
 
-####Install composer
+###Install composer
+
 `docker-compose -f docker-compose.yml run --rm cata-php composer install`
 
-####Run phpSpec
+###Run phpSpec
  
 `docker-compose -f docker-compose.yml run --rm cata-php php vendor\bin\phpspec`
 
-####Run phpunit
+###Run phpunit
  
 `docker-compose -f docker-compose.yml run --rm cata-php php vendor\bin\phpunit -c phpunit.xml`
