@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  cata-php:
+    image: n3m1s/code-kata:latest
+    volumes:
+      - ./:/opt/project
+  
